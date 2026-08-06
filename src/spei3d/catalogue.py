@@ -32,7 +32,7 @@ class _MonthlyAggregate:
         self.maximum_patch_area_km2 = max(self.maximum_patch_area_km2, stats.area_km2)
         self.minimum_spei = min(self.minimum_spei, stats.minimum_spei)
 
-    def combine(self, other: "_MonthlyAggregate") -> None:
+    def combine(self, other: _MonthlyAggregate) -> None:
         self.area_km2 += other.area_km2
         self.catalogue_severity += other.catalogue_severity
         self.deficit_severity_km2months += other.deficit_severity_km2months

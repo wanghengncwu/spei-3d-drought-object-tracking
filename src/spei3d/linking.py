@@ -60,7 +60,7 @@ class LinkState:
     union_find: UnionFind
 
     @classmethod
-    def empty(cls, shape: tuple[int, ...]) -> "LinkState":
+    def empty(cls, shape: tuple[int, ...]) -> LinkState:
         return cls(previous_ids=np.zeros(shape, dtype=np.int32), union_find=UnionFind())
 
 

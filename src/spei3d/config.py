@@ -76,7 +76,7 @@ class ProjectConfig:
     runtime: RuntimeConfig = field(default_factory=RuntimeConfig)
     sensitivity: SensitivityConfig | None = None
 
-    def with_output(self, root: Path) -> "ProjectConfig":
+    def with_output(self, root: Path) -> ProjectConfig:
         return replace(self, output=OutputConfig(root=root))
 
 
