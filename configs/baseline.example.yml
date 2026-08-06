@@ -1,0 +1,29 @@
+input:
+  spei: ../data/cru_ts_spei06.nc
+  dataset_name: CRU-TS
+  variable: spei
+  time_start: 1901-01
+  time_end: 2024-12
+  target_grid: null
+  land_mask: null
+
+output:
+  root: ../outputs/cru_ts_baseline
+
+event_definition:
+  spei_threshold: -1.0
+  connectivity: 8
+  minimum_monthly_patch_area_km2: 25000
+  minimum_duration_months: 3
+  minimum_peak_area_km2: 50000
+
+linking:
+  rule: maximum_overlap
+  minimum_overlap_cells: 1
+  minimum_iou: 0.10
+
+runtime:
+  time_block_months: 12
+  write_labels: false
+  overwrite: false
+  hash_inputs: false

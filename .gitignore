@@ -1,0 +1,52 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local run configurations
+configs/baseline.yml
+configs/sensitivity.yml
+
+# Generated outputs and input data
+data/
+outputs/
+results/
+*.nc
+*.nc4
+*.npy
+*.npz
+*.parquet
+*.h5
+*.hdf5
+*.grib
+*.grb
+*.zarr/
+
+# Binary documents and archives
+*.zip
+*.pdf
+*.docx
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.sha256
+
+# Local settings and temporary files
+*.log
+*.tmp
+*.bak
+.env
+.DS_Store
+Thumbs.db

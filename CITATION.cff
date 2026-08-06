@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this software release and the associated article when available."
+title: "SPEI-Based 3-D Drought Object Tracking"
+type: software
+version: 1.0.0
+date-released: 2026-08-06
+repository-code: https://github.com/wanghengncwu/spei-3d-drought-object-tracking
+authors:
+  - family-names: Wang
+    given-names: Heng
+  - family-names: Wang
+    given-names: Fuqiang
+abstract: >-
+  Reproducible Python software for identifying monthly drought patches,
+  linking them across adjacent months, constructing three-dimensional
+  meteorological drought objects, generating catalogues, and conducting
+  one-factor-at-a-time sensitivity experiments from precomputed SPEI fields.
+keywords:
+  - drought
+  - SPEI
+  - three-dimensional drought object
+  - event tracking
+  - meteorological drought
+license: MIT
