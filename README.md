@@ -2,9 +2,9 @@
 
 A reproducible Python implementation for identifying and tracking three-dimensional meteorological drought objects in longitude–latitude–time space from precomputed Standardized Precipitation Evapotranspiration Index (SPEI) NetCDF files.
 
-This repository accompanies the manuscript:
+This repository accompanies the following article:
 
-> Wang, H., Wang, F., Xu, C.-Y., Zhao, H., Huang, S., Yang, H., Zhang, H., Cui, L., and Du, Y. *Spatiotemporal evolution and burden concentration of global meteorological drought from a three-dimensional object perspective*. Manuscript under revision at *Journal of Hydrology*.
+> Wang, H., Wang, F., Xu, C.-Y., Zhao, H., Huang, S., Yang, H., Zhang, H., Cui, L., and Du, Y. (2026). Spatiotemporal evolution and concentration of global meteorological drought from a three-dimensional object-based perspective. *Journal of Hydrology*, 680, 136473. https://doi.org/10.1016/j.jhydrol.2026.136473
 
 ## Capabilities
 
@@ -247,9 +247,11 @@ python scripts/audit_release.py .
 
 ## Citation
 
-The repository-root `CITATION.cff` file contains machine-readable software citation metadata. After the file is pushed to the default GitHub branch, GitHub displays a **Cite this repository** control.
+If you use this software, workflow, or its outputs, please cite the associated article:
 
-Until the associated article is formally published, cite the software release and identify the associated manuscript as under revision. After publication, update the README and `CITATION.cff` with the final article DOI while retaining the immutable `v1.0.0` release used for the revision.
+> Wang, H., Wang, F., Xu, C.-Y., Zhao, H., Huang, S., Yang, H., Zhang, H., Cui, L., and Du, Y. (2026). Spatiotemporal evolution and concentration of global meteorological drought from a three-dimensional object-based perspective. *Journal of Hydrology*, 680, 136473. https://doi.org/10.1016/j.jhydrol.2026.136473
+
+The repository-root `CITATION.cff` file provides machine-readable citation metadata for both the software release and the associated article. GitHub displays these metadata through the **Cite this repository** control.
 
 ## GitHub publication
 

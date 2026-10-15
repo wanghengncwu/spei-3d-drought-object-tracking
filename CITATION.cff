@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this software release and the associated article when available."
+message: "If you use this software, please cite both the software release and the associated article."
 title: "SPEI-Based 3-D Drought Object Tracking"
 type: software
 version: 1.0.0
@@ -22,3 +22,32 @@ keywords:
   - event tracking
   - meteorological drought
 license: MIT
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Wang
+      given-names: Heng
+    - family-names: Wang
+      given-names: Fuqiang
+    - family-names: Xu
+      given-names: Chong-Yu
+    - family-names: Zhao
+      given-names: Heng
+    - family-names: Huang
+      given-names: Shengzhi
+    - family-names: Yang
+      given-names: Huan
+    - family-names: Zhang
+      given-names: Honglu
+    - family-names: Cui
+      given-names: Lanbo
+    - family-names: Du
+      given-names: Yutian
+  title: "Spatiotemporal evolution and concentration of global meteorological drought from a three-dimensional object-based perspective"
+  journal: "Journal of Hydrology"
+  year: 2026
+  volume: "680"
+  start: "136473"
+  doi: "10.1016/j.jhydrol.2026.136473"
+  url: "https://doi.org/10.1016/j.jhydrol.2026.136473"
